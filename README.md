@@ -82,4 +82,6 @@ Los tres archivos pueden almacenarse en AWS S3 y cargarse desde una API REST par
 
 ## Conclusión personal
 
-Pendiente de completar con los resultados obtenidos durante la ejecución en AWS EC2.
+Durante esta práctica aprendí a implementar un modelo de aprendizaje no supervisado utilizando K-Means y PCA dentro de una instancia Ubuntu en AWS EC2.
+
+De acuerdo con los resultados obtenidos, se seleccionó un valor óptimo de K = [valor], debido a que presentó el mayor Coeficiente de Silueta, con un resultado de [valor]. También se obtuvo un Índice Davies-Bouldin de [valor], que permite evaluar la separación y compactación de los grupos formados.
