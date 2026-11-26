@@ -1,0 +1,18 @@
+=== PIPELINE COMPLETO DE ANÁLISIS NO SUPERVISADO EN UBUNTU EC2 ===
+
+--- Evaluaciones para Selección de K ---
+ K  Silhouette  Davies-Bouldin  Calinski-Harabasz
+ 2    0.535579        0.838428        1645.326920
+ 3    0.619429        0.533283        2295.542523
+ 4    0.686272        0.462535        4846.229196
+ 5    0.585386        0.819456        3992.513011
+
+-> Número Óptimo de Clusters Seleccionado: K = 4
+
+--- Métricas del Modelo Final Seleccionado ---
+Coeficiente de Silueta: 0.6863
+Índice Davies-Bouldin: 0.4625
+Índice Calinski-Harabasz: 4846.2292
+Varianza Explicada por PCA 2D: 87.63%
+
+-> Modelo K-Means, Escalador y PCA guardados exitosamente como archivos '.pkl'.
